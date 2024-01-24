@@ -1,0 +1,161 @@
+
+@media screen and (max-width: 991px) {
+
+    .margin.active-margin {
+        margin-top: 355px;
+    }
+
+    .margin.not-active-margin {
+        margin-top: 0px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-bar {
+        overflow: initial;
+    }
+
+    .nav-options {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px; 
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-options.active {
+        left:0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .navigation-toggle {
+        display: block;
+        margin-right: 15px;
+    }
+
+    .feature-section {
+        padding: 40px var(--padding-inline-section) 0;
+    }
+    
+    .examples {
+        width: calc( 50% - 10px );
+        height: 250px;
+    }
+
+    .services {
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer {
+        padding-block: 50px;
+        background-color: #d9e9fb;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+
+    .main-body {
+        flex-direction: column-reverse;
+    }
+
+    .main-heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-body-grid-container {
+        width: 100%;
+    }
+
+    .feature-options {
+        gap: 30px;
+    }
+
+    .feature-logo {
+        flex-basis: calc( 50% - 15px );
+    }
+
+    .big-feature, .big-feature1 {
+        flex-direction: column;
+    }
+
+    .big-feature-content {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-options {
+        align-items: stretch;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    :root {
+        --padding-inline-section: 10px
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .becomeTester {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    .feature-logo p {
+        font-size: 1rem;
+    }
+
+    .big-feature-content p {
+        font-size: 1rem;
+    }
+
+    .adverstisements {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .feature-logo {
+        flex-basis: 100%;
+    }
+
+    .examples {
+        width: 100%;
+    }
+}

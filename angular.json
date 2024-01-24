@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "usabilityhub"
+    }
+  },
+  "defaultProject": "usabilityhub",
+  "cli": {
+    "analytics": "339ee6a5-7080-498b-adfd-0b47e23298a7"
+  }
 }

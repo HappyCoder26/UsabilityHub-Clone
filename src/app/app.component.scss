@@ -1,0 +1,403 @@
+// utility class
+
+.container {
+    max-width: 1220px;
+    margin-inline: auto;
+    padding: var(--padding-inline-section);
+    overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.secondary-button {
+    border: 0.3px solid rgb(179, 170, 170);
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px 22px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+    color: white !important;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+    box-shadow: 0 0 3px var(--secondary-text-color);
+}
+
+
+// Banner Section
+
+.banner{
+    background-color:  #4dadf7;
+    background-image: url("../assets/asset\ 32.png");
+    background-size: 300px;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h3 {
+    color: aliceblue;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+// navigation bar 
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-bar {
+   justify-content: space-between;
+   position: relative;
+}
+
+.nav-icon {
+    gap: 25px;
+}
+
+.nav-icon img {
+    width: 170px
+}
+
+.nav-options {
+    flex-basis: 750px; 
+}
+
+.nav-links {
+    gap: 25px;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    color: var(--primary-text-color);
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+.navigation-toggle {
+    display: none;
+}
+
+// Header Section
+
+header {
+    padding: 10px var(--padding-inline-section) 0;
+}
+
+.main-body {
+    justify-content: center;
+    gap: 50px;
+}
+
+.main-heading {
+    width: 45vw;
+}
+
+.main-heading h1 {
+    margin-bottom: 15px;
+}
+
+.main-body-button {
+    text-align: center;
+}
+
+.header-text-below-button {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.main-body-grid-container {
+    width: 19vw;
+    margin-top: 32px;
+    display: grid;
+}
+
+.main-body-grid-container a {
+    padding: 14px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+// Company Lists
+
+.companies-list-section {
+    padding: 10px var(--padding-inline-section) 0;
+}
+
+.company-list {
+    margin-top: 25px;
+}
+
+.company-list h3 {
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.company-logo {
+    margin-top: 25px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.company-logo img {
+    height: 45px;
+}
+
+// Features Section
+
+.feature-section {
+    padding: 80px var(--padding-inline-section) 0;
+}
+
+.features-heading {
+    text-align: center;
+}
+
+.features-heading a{
+    margin-top: 15px;
+}
+
+.feature-options {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.feature-logo {
+    flex-basis: 27%;
+    text-align: center;
+}
+
+.feature-logo img{
+    height: 40px;
+}
+
+.feature-logo p {
+    font-size: 1.3rem;
+    margin-block: 10px;
+}
+
+// Big-feature Section
+
+.big-feature-section {
+    padding: 10px var(--padding-inline-section) 0;
+}
+
+.big-feature {
+    justify-content: center;
+    gap: 50px;
+}
+
+.big-feature1 {
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+
+.big-feature-banner {
+    
+}
+
+.big-feature-banner img {
+    width: 100%;
+}
+
+.big-feature-content {
+    width: 40vw;
+}
+
+.big-feature-content-p {
+    font-size: 1.3rem;
+    margin-top: 12px;
+}
+
+.big-feature-content img {
+    height: 30px;
+    margin-block: 24px;
+}
+
+.reviewer-image img {
+    height: 50px;
+}
+
+.reviewer-details h4 {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.reviewer-details p {
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+
+// Examples Section
+
+.examples-section {
+    padding: 10px var(--padding-inline-section) 0;
+}
+
+.examples-heading {
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.examples-heading h2{
+    margin-bottom: 5px;
+}
+
+.examples img{
+    justify-content: space-around;
+    max-width:15vw;
+}
+
+.example-items {
+    justify-content: space-between;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-block: 7px;
+}
+
+.examples {
+    height: 350px;
+    width: 23%;
+    background: black;
+    position: relative;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.9)), url('../assets/asset\ 36.jpeg');
+    background-size: cover;
+}
+
+.examples:nth-child(2) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.9)), url('../assets/asset\ 37.jpeg');
+    background-size: cover;
+}
+
+.examples:nth-child(3) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.9)), url('../assets/asset\ 38.jpeg');
+    background-size: cover;
+}
+
+.examples:nth-child(4) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.9)), url('../assets/asset\ 39.jpeg');
+    background-size: cover;
+}
+
+.examples p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+// Advertisement Section
+
+.advertisement-section {
+    background-color: #183b54;
+    padding: 10px var(--padding-inline-section) 0;
+}
+
+.adverstise {
+    width: 40vw;
+}
+
+.advertise h2 {
+    color: white;
+}
+
+.advertise p {
+    margin-top: 10px;
+    color: #8dbfe5;
+}
+
+.advertise h3 {
+    color: white;
+    margin-block: 10px;
+}
+
+.services {
+    gap: 40px;
+}
+
+.services-ul li {
+    color: white;
+}
+
+.advertise-image img {
+    width: 100%;
+}
+
+.services-ul li:before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+}
+
+//Footer
+
+footer {
+    padding-block: 80px;
+    background-color: #d9e9fb;
+}
+
+.footer-container
+{
+    justify-content: space-between;
+    align-items: start;
+}
+
+.link-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+//Subfooter Section
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
